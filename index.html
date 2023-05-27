@@ -1,9 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="jp" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <title>みいけ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+    [v-cloak] {display: none;}
+    :root {--main-color: #f8b500;}
+    .bg-main {background: var(--main-color);}
+
+    .card-img-top {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      border-radius: 50%!important;
+    }
+
+    .card-link:hover .card-title {text-decoration: underline;}
+
+    header .container {
+      background-image: url(img/1685212633808.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    </style>
   </head>
   <body>
+
+    <noscript>
+      <p>javascriptが無効です。ブラウザの設定で有効にして下さい。</p>
+    </noscript>
+
+    <header>
+      <div class="container p-3 my-5 rounded">
+        <h1>みいけ</h1>
+        <p class="m-0">黄色いあいつのwebサイト</p>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section>
+          <div id="app">
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p class="my-5 text-center"><small>&copy; 2023 @miike_7</small></p>
+    </footer>
+
+    <script src="https://unpkg.com/vue@3.2.47/dist/vue.global.prod.js"></script>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
